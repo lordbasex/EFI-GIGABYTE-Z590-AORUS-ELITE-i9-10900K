@@ -6,7 +6,7 @@ Gigabyte Z590 Aorus Elite AX + i9 10900K + Graphic Gigabyte AMD Radeon RX 5600 X
 Setup
 ![SETUP](https://github.com/lordbasex/EFI-GIGABYTE-Z590-AORUS-ELITE-i9-10900K/blob/main/images/setup.jpeg)
 
-**Latest working macOS**: 12.6
+**Latest working macOS Monterey**: 12.6
 <br>
 **OpenCore**: [0.8.5](https://github.com/acidanthera/OpenCorePkg/releases/tag/0.8.5)
 
@@ -114,25 +114,27 @@ Note: Rebuild SMBIOS with *iMacPro1,1* to enable H264 and HEVC with [GenSMBIOS](
       └── Location: Internal
 ```
 
-
-## ChipSet
+## ChipSet:
 - Video: Intel UHD Graphics 630
 - Network: RTL8125 2.5GbE Controller
-- All USB ports
 
+## ACPI/DSDT:
+- SSDT-AWAC.aml
+- SSDT-EC.aml
+- SSDT-USBX.aml
 
 ## Kexts used:
 - AppleALC.kext
 - BlueToolFixup.kext
-- BrcmFirmwareData.kext
-- BrcmPatchRAM3.kext
 - Lilu.kext
 - LucyRTL8125Ethernet.kext
+- NVMeFix.kext
 - RadeonSensor.kext
 - SMCProcessor.kext
 - SMCRadeonGPU.kext
 - SMCSuperIO.kext
-- USBInjectAll.kext
+- USBToolBox.kext
+- UTBMap.kext
 - VirtualSMC.kext
 - WhateverGreen.kext
 
@@ -142,5 +144,5 @@ Note: Rebuild SMBIOS with *iMacPro1,1* to enable H264 and HEVC with [GenSMBIOS](
 - https://ark.intel.com/content/www/us/en/ark/products/199328/intel-core-i910900-processor-20m-cache-up-to-5-20-ghz.html
 - https://github.com/acidanthera/WhateverGreen/blob/master/Manual/FAQ.IntelHD.en.md
 
-
+## Special thanks to Aníbal Akalzir [@akalzir](https://t.me/+Oyp3zVEBKkZiZTkx)
 
