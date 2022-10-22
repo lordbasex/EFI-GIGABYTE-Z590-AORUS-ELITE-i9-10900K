@@ -1,5 +1,5 @@
 # EFI-GIGABYTE-Z590-AORUS-ELITE-i9-10900K
-Gigabyte Z590 Aorus Elite AX + i9 10900K + Graphic Gigabyte AMD Radeon RX 5600 XT + TP-Link UB400
+Gigabyte Z590 Aorus Elite + i9 10900K + Graphic Gigabyte AMD Radeon RX 5600 XT + TP-Link UB400
 
 ![macOS01](https://github.com/lordbasex/EFI-GIGABYTE-Z590-AORUS-ELITE-i9-10900K/blob/main/images/macOS01.png)
 
