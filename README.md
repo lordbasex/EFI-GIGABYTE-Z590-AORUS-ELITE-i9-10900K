@@ -8,7 +8,7 @@ Setup
 
 **Latest working macOS Monterey**: 12.6
 <br>
-**OpenCore**: [0.8.5](https://github.com/acidanthera/OpenCorePkg/releases/tag/0.8.5)
+**OpenCore**: [0.8.6](https://github.com/acidanthera/OpenCorePkg/releases/tag/0.8.6)
 
 ## Complete hardware specs
 - [Intel(R) Core(TM) i9-10900 CPU @ 2.80GHz](https://www.intel.com/content/www/us/en/products/sku/199328/intel-core-i910900-processor-20m-cache-up-to-5-20-ghz/specifications.html)
