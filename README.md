@@ -1,7 +1,7 @@
 # EFI-GIGABYTE-Z590-AORUS-ELITE-i9-10900K
-Gigabyte Z590 Aorus Elite + i9 10900K + Graphic Gigabyte AMD Radeon RX 5600 XT + TP-Link UB400
+Gigabyte Z590 Aorus Elite + i9 10900K + Graphic Gigabyte AMD Radeon RX 580 8GB + TP-Link UB400
 
-![macOS01](https://github.com/lordbasex/EFI-GIGABYTE-Z590-AORUS-ELITE-i9-10900K/blob/main/images/macOS01.png)
+![macOS01](https://github.com/lordbasex/EFI-GIGABYTE-Z590-AORUS-ELITE-i9-10900K/blob/main/images/macOS01-ventura.png)
 
 Setup
 ![SETUP](https://github.com/lordbasex/EFI-GIGABYTE-Z590-AORUS-ELITE-i9-10900K/blob/main/images/setup.jpeg)
@@ -14,7 +14,7 @@ Setup
 - [Intel(R) Core(TM) i9-10900 CPU @ 2.80GHz](https://www.intel.com/content/www/us/en/products/sku/199328/intel-core-i910900-processor-20m-cache-up-to-5-20-ghz/specifications.html)
 - [Gigabyte Z590 Aorus Elite @ BIOS F6a](https://www.gigabyte.com/Motherboard/Z590-AORUS-ELITE-rev-10#kf)
 - [4x 32Gb DDR4 2400MHz Kingston HyperX HX436C18PB3/32](https://www.kingston.com/datasheets/HX436C18PB3_32.pdf?_=v1)
-- [Gigabyte AMD Radeon RX 5600 XT](https://www.gigabyte.com/ar/Graphics-Card/GV-R56XTWF2OC-6GD#kf)
+- [Gigabyte AMD Radeon RX 580 8 GB](https://www.gigabyte.com/ar/Graphics-Card/GV-RX580GAMING-8GD-rev-20#kf)
 - [HD NVMe Western Digital WDC WDS100T2B0C-00PXH0](https://documents.westerndigital.com/content/dam/doc-library/en_us/assets/public/western-digital/product/internal-drives/wd-blue-nvme-ssd/data-sheet-wd-blue-sn550-nvme-ssd-idk.pdf)
 - [Bluetooth 4.0 TP-Link UB400](https://www.tp-link.com/uk/home-networking/adapter/ub400/)
 
@@ -46,10 +46,10 @@ Note: Rebuild SMBIOS with *iMacPro1,1* to enable H264 and HEVC with [GenSMBIOS](
   └── Manufacturer: Gigabyte Technology Co., Ltd.
 
 ─ GPU
-  └── AMD Radeon RX 5600 XT
+  └── AMD Radeon RX 580 XT
       ├── Vendor ID: 0x1002
-      ├── Device ID: 0x731f
-      ├── PCI Path: PciRoot(0x0)/Pci(0x1,0x0)/Pci(0x0,0x0)/Pci(0x0,0x0)/Pci(0x0,0x0)
+      ├── Device ID: 0x67df
+      ├── PCI Path: PciRoot(0x0)/Pci(0x1,0x0)/Pci(0x0,0x0)
       └── Codename: Navi 10
 
 ─ Memory
@@ -151,7 +151,7 @@ No variant specified, falling back to release
 
 ## Doc:
 - https://dortania.github.io/OpenCore-Install-Guide/
-- https://github.com/KernelWanderers/OCSysInfo/releases/tag/v1.0.8
+- https://github.com/KernelWanderers/OCSysInfo/releases
 - https://ark.intel.com/content/www/us/en/ark/products/199328/intel-core-i910900-processor-20m-cache-up-to-5-20-ghz.html
 - https://github.com/acidanthera/WhateverGreen/blob/master/Manual/FAQ.IntelHD.en.md
 
