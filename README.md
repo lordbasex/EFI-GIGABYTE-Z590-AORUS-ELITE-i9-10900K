@@ -125,7 +125,7 @@ Note: Rebuild SMBIOS with *iMacPro1,1* to enable H264 and HEVC with [GenSMBIOS](
 
 ## SSDT Cuscom
 - SSDT-PC00-SBUS - [Fixing SMBus support (SSDT-SBUS-MCHC)](https://dortania.github.io/Getting-Started-With-ACPI/Universal/smbus.html)
-- 
+- SSDT-HPET.aml - [Fixing IRQ Conflicts (SSDT-HPET + OC_Patches.plist)](https://dortania.github.io/Getting-Started-With-ACPI/Universal/irq.html)
 ```
 lordbasex@xxxx ~ % kextstat | grep -E "AppleSMBusController|AppleSMBusPCI"
 Executing: /usr/bin/kmutil showloaded
