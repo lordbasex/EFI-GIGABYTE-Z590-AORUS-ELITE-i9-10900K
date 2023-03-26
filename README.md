@@ -123,6 +123,15 @@ Note: Rebuild SMBIOS with *iMacPro1,1* to enable H264 and HEVC with [GenSMBIOS](
 - SSDT-EC.aml
 - SSDT-USBX.aml
 
+## SSDT Cuscom
+```
+lordbasex@xxxx ~ % kextstat | grep -E "AppleSMBusController|AppleSMBusPCI"
+Executing: /usr/bin/kmutil showloaded
+No variant specified, falling back to release
+  125    0 0xffffff7f95eb5000 0x1000     0x1000     com.apple.driver.AppleSMBusPCI (1.0.14d1) EBE57D74-99FA-3C49-B052-F1500A67430B <17 7 6 3>
+  158    1 0xffffff7f95ea9000 0x6ffd     0x6ffd     com.apple.driver.AppleSMBusController (1.0.18d1) 9DFAA286-BAED-3143-93F5-A990A2DA7E95 <157 17 16 7 6 3>
+```
+
 ## Kexts used:
 - AppleALC.kext
 - BlueToolFixup.kext
