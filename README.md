@@ -6,9 +6,9 @@ Gigabyte Z590 Aorus Elite + i9 10900K + Graphic Gigabyte AMD Radeon RX 5600 XT +
 Setup
 ![SETUP](https://github.com/lordbasex/EFI-GIGABYTE-Z590-AORUS-ELITE-i9-10900K/blob/main/images/setup.jpeg)
 
-**Latest working macOS Monterey**: 12.6
+**Latest working macOS Ventura**: 13.2.1(22D68)
 <br>
-**OpenCore**: [0.8.8](https://github.com/acidanthera/OpenCorePkg/releases/tag/0.8.8)
+**OpenCore**: [0.9.0](https://github.com/acidanthera/OpenCorePkg/releases/tag/0.9.0)
 
 ## Complete hardware specs
 - [Intel(R) Core(TM) i9-10900 CPU @ 2.80GHz](https://www.intel.com/content/www/us/en/products/sku/199328/intel-core-i910900-processor-20m-cache-up-to-5-20-ghz/specifications.html)
